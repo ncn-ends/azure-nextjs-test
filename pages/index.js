@@ -9,6 +9,7 @@ export default function Home() {
       </Head>
 
       <p>TESTING TESTING TESTING</p>
+      <h1>{process.env.NEXT_PUBLIC_EXAMPLE_TEXT}</h1>
       <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
