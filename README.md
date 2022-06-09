@@ -16,8 +16,7 @@ Luckily setting it up in the GUI only takes a few clicks.
   
 5) Deploy the changes to app settings from local to Azure. The resulting output of this command should match what you want the app settings to be.
 
-```
- az webapp config appsettings set --resource-group azure-test --name azure-test-nextjs --settings @azure-settings.json```
+``` az webapp config appsettings set --resource-group azure-test --name azure-test-nextjs --settings @azure-settings.json```
 
 **NOTE:** Ensure that azure-settings.json or whatever the json file is called is .gitignored
 
